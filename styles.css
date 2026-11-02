@@ -1,0 +1,85 @@
+/*You can change the hexidecimal number to change the colors on your nonlinear story.  
+You can also change the font family, font sizes, font styles, or alignments*/
+
+/*overall style*/
+div {
+    width: 75%;
+	margin: 0 auto;
+}
+
+body {
+	background: #fefefe; /*to change, look up color codes on Adobe Color, Cooler, or Photoshop*/
+	font-family: Geneva, sans-serif; /*to change, look up other font families*/
+}
+/*heading style*/
+h1 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #000000; 
+	text-align: center; 
+	font-size: 32px; /*you can change all font sizes by changing the pixels*/
+	font-weight: bold;
+}
+/*image style*/
+img {
+	height: 700px;px; /*change height of image*/
+    display: block;
+    margin: auto;
+    border:0px solid #f41919; 
+}
+
+/*paragraph style*/
+p {	
+	font-size: 16px;
+	text-align: left;
+
+            max-width: 700px;
+
+            margin: 0 auto 20px;
+	color: #000000; /*change this to the hexidecimal number for the paragraph text color you prefer*/
+}
+/*unvisited link style*/
+a {
+	color: #000000;
+    text-align: center;
+}
+/*hovered over link style*/
+a:hover {
+	color: #5DA6A8; 
+}
+/*visited link style*/
+a:visited {
+	color: #B2125D; 
+}
+/*list styles*/
+ul {
+   display: block;
+    margin:auto; 
+    text-align: left;
+	padding-left: 35%;
+  	list-style-position: inside;
+}
+
+li {
+	font-size: 16px;
+	font-style:italic; 
+	color: #FF0078;
+	}
+
+#show-page-code {
+	display: block;
+	margin: 24px auto;
+	padding: 10px 16px;
+	cursor: pointer;
+}
+
+#page-code {
+	max-width: 700px;
+	max-height: 500px;
+	margin: 0 auto 24px;
+	padding: 16px;
+	overflow: auto;
+	border: 1px solid #ccc;
+	background: #f4f4f4;
+	white-space: pre-wrap;
+	overflow-wrap: anywhere;
+}
